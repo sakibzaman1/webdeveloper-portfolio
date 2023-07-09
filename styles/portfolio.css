@@ -15,9 +15,9 @@ background: #FD6E0A;
 color: var(--white-color, #FFF);
 font-family: Open Sans;
 font-size: 20px;
-font-style: normal;
+
 font-weight: 700;
-line-height: normal;
+
 }
 
 /* nav related styles */
@@ -34,9 +34,9 @@ nav{
     color: #181818;
     font-family:  Open Sans;
     font-size: 45px;
-    font-style: normal;
+    
     font-weight: 800;
-    line-height: normal;
+    
 }
 nav ul{
     display: flex;
@@ -82,6 +82,7 @@ nav a{
     justify-content: space-between;
   
 }
+
 .banner-btn1{
     width: 200px;
     height: 64px;
@@ -129,10 +130,183 @@ margin-bottom: 30px;
 }
 .banner img{
     width: 584px;
-    height: 676px;  
+    height: 676px;   
+}
+
+/* about section styles */
+
+.about{
+    max-width: 1140px;
     
-    
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    height: 400px;
+    margin-top: 130px;
     
 }
 
+.about-title{
+    font-size: 35px;
+    text-align: center;
+    font-family: open sans;
+    
+}
+.about-desc{
+    width: 1140px;
+    text-align:center;
+    
+    font-size: 18px;
+    
+}
+.about-info-container{
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-weight: 400;
+}
+.about-info{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+}
 
+/* what is do styles */
+
+.what-i-do-section{
+    
+    max-width: 1140px;
+    align-items: center;
+    margin: auto;
+    
+    height: 300px;
+    margin-top: 70px;
+    
+}
+.section-title{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+}
+.section-desc{
+    color: var(--dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.skill-boxes{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+    gap: 24px;
+    
+    
+  
+}
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+width: 267px;
+height: 377px;
+padding: 10px;
+margin: auto;
+gap: 24px;
+}
+.icon{
+    width: 44px;
+height: 44px;
+}
+.skill-title{
+    color: var(--dark-01, #181818);
+text-align: left;
+font-family: Open Sans;
+font-size: 20px;
+
+font-weight: 700;
+
+}
+.skill-desc{
+    display: flex;
+    
+width: 201px;
+color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+
+font-weight: 400;
+
+}
+
+/* Resume section styles */
+
+.resume-item-title{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+margin-top: 50px;
+}
+.resume-item-institute{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-column-title{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700; 
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.resume-section-title{
+    text-align: center;
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+}
+.resume-item-desc{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+width: 511px;
+margin-bottom: 30px;
+}
+.down-cv-btn{
+    width: 200px;
+height: 64px;
+border: none;
+border-radius: 5px;
+background: #FD6E0A;
+color: white;
+font-size: 20px;
+font-weight: 700;
+font-family: Open Sans;
+}
+.download-cv{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
