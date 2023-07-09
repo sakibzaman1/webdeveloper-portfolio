@@ -34,7 +34,6 @@ nav{
     color: #181818;
     font-family:  Open Sans;
     font-size: 45px;
-    
     font-weight: 800;
     
 }
@@ -76,10 +75,11 @@ nav button:hover{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url(/images/header_bg.png);
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, top left;
     position:relative;
+    
     
 }
 
@@ -87,7 +87,7 @@ nav button:hover{
 
 .banner{
     
-    
+    margin-left: 226px;
     display: flex;
     align-items: center;
     padding-bottom: 0px;
@@ -132,7 +132,7 @@ line-height: normal;
 letter-spacing: 33px;
 }
 .banner-content{
-    margin-left: 20px;
+    margin-left: 10px;
     max-width: 500px;
 }
 .banner-greeting{
