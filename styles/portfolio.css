@@ -75,7 +75,7 @@ nav button:hover{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url("/images/header_bg.png"), url("/images/developer.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: right bottom, top left;
     position:relative;
@@ -99,7 +99,7 @@ nav button:hover{
     width: 200px;
     height: 64px;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
 }
